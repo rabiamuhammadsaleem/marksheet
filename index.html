@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKSHEET</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div style="max-width:550px;margin:0px auto;">
+        <h1>IQRA UNIVERSITY</h1>
+        <p>(Recognized By <b>the Higher Education Commission (HEC) of Pakistan: </b>)</p>
+        <p>owner <b> Mr. Hunaid Lakhani</b></p>
+        <address>
+          Shaheed-e-Millat Road, Phase 2 Defence View Housing Society, Karachi City, Sindh 75500. · Gulshan Campus : 4B, Block 7 Gulshan-e-Iqbal, Karachi,
+        </address>
+        <h2>My Mark Sheet</h2>
+        <table class="table">
+         <tr><th>Name : </th><td><span><input type="text" placeholder="Enter Name..."class="name"></span></td><th>F.Name:</th><td><span><input type="text"placeholder="Enter F.Name..."class="f.name"></span></td></tr>
+         <tr><th>Class : </th><td><span><input type="text"placeholder="Enter Class..."class="class"></span></td><th>Section :</th><td><span><input type="text"placeholder="Enter Section..."class="section"></span></td></tr>
+         <tr><th>Roll No : </th><td><span><input type="text"placeholder="Enter Roll No..."class="roll no"></span></td><th>Group:</th><td><span><input type="text"placeholder="Enter Group..."class="group"></span></td></tr>
+        </table>
+      
+      <table class="table">
+        <tr>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td>Physics</td>
+          <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+          <td class="grade"></td>
+        </tr>
+        <tr>
+          <td>Computer</td>
+          <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+          <td class="grade"></td>
+        </tr>
+        <tr>
+          <td>Chemistry</td>
+          <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+          <td class="grade"></td>
+        </tr>
+        <tr>
+          <td>English</td>
+          <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+          <td class="grade"></td>
+        </tr>
+        <tr>
+          <td>Urdu</td>
+          <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+          <td class="grade"></td>
+        </tr>
+        <tr>
+          <td>Mathematics</td>
+          <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+          <td class="grade"></td>
+        </tr>
+        
+      </table>
+      <table>
+        <tr>
+          <td>Total Marks :</td>
+          <td id="totalmarks"></td>
+        </tr>
+        <tr>
+          <td>Perentage :</td>
+          <td id="percentage"></td>
+        </tr>
+        <tr>
+          <td>Final Grade :</td>
+          <td id="finalgrade"></td>
+        </tr>
+      </table>
+      </div>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
